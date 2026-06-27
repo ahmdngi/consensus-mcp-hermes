@@ -109,7 +109,7 @@ Once connected, the `search` tool is available with these parameters:
 
 ## Re-authentication
 
-Tokens are cached by mcp-remote at `~/.mcp-auth/mcp-remote-<version>`. To re-authenticate:
+Tokens are cached by mcp-remote at `~/.mcp-auth/mcp-remote-<version>` and include a refresh token (4-hour access token expiry). To re-authenticate manually:
 
 ```bash
 rm -rf ~/.mcp-auth/mcp-remote-*
