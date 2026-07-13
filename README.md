@@ -4,7 +4,7 @@ Connect [Consensus](https://consensus.app) — 200M+ peer-reviewed research pape
 
 ## How It Works
 
-Consensus's MCP server at `https://mcp.consensus.app/mcp` uses OAuth for authentication. This guide uses the [`mcp-remote`](https://www.npmjs.com/package/mcp-remote) bridge package, which handles the OAuth flow and proxies MCP calls between Hermes and Consensus.
+Consensus's MCP server at `https://mcp.goconsensus.com/mcp/` uses OAuth for authentication. This guide uses the [`mcp-remote`](https://www.npmjs.com/package/mcp-remote) bridge package, which handles the OAuth flow and proxies MCP calls between Hermes and Consensus.
 
 ```
 Hermes → mcp-remote (stdio) → OAuth token → Consensus MCP (https)
@@ -30,7 +30,7 @@ mcp_servers:
     args:
       - -y
       - mcp-remote@latest
-      - https://mcp.consensus.app/mcp
+      - https://mcp.goconsensus.com/mcp/
     timeout: 180
     connect_timeout: 60
 ```
