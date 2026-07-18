@@ -2,6 +2,10 @@
 
 Connect [Consensus](https://consensus.app) — 200M+ peer-reviewed research papers — to [Hermes Agent](https://hermes-agent.nousresearch.com) via the Model Context Protocol (MCP).
 
+[![GitHub Release](https://img.shields.io/github/v/release/ahmdngi/consensus-mcp-hermes?style=flat-square)](https://github.com/ahmdngi/consensus-mcp-hermes/releases)
+[![License](https://img.shields.io/github/license/ahmdngi/consensus-mcp-hermes?style=flat-square)]()
+[![Stars](https://img.shields.io/github/stars/ahmdngi/consensus-mcp-hermes?style=flat-square)](https://github.com/ahmdngi/consensus-mcp-hermes)
+
 ## How It Works
 
 Consensus's MCP server at `https://mcp.goconsensus.com/mcp/` uses OAuth for authentication. This guide uses the [`mcp-remote`](https://www.npmjs.com/package/mcp-remote) bridge package, which handles the OAuth flow and proxies MCP calls between Hermes and Consensus.
